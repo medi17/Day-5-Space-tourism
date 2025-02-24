@@ -4,7 +4,7 @@ import SectionTwo from './section_2'
 
 const main = () => {
      return (
-          <main>
+          <main className='main-wrapper'>
                <SectionOne /> 
                <SectionTwo />
           </main>

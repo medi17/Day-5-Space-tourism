@@ -67,7 +67,7 @@
      opacity: 0.4;
      cursor: pointer;
 }
-.tab:hover{
+.tab:not(.act-tab):hover{
      opacity: 0.7;
 }
 .bloc{

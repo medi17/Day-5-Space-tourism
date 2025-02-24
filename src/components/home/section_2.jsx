@@ -8,16 +8,13 @@ const SectionTwo = () => {
           setIsHovered(true)
      }
      const mouseLeave = () => {
-          setIsHovered(false)
-          
+          setIsHovered(false)  
      }
      return (
-          <div>
-               <section className="button-container">
-                    <div className="explore" onMouseOver={mouseOver} onMouseLeave={mouseLeave}><p>EXPLORE</p></div>
-                    <div className="overlay" style ={{display: isHovered ? "block" : "none"}} ></div>
-               </section>
-          </div>
+          <section className="button-container">
+               <div className="explore" onMouseOver={mouseOver} onMouseLeave={mouseLeave}><p>EXPLORE</p></div>
+               <div className="overlay" style ={{display: isHovered ? "block" : "none"}} ></div>
+          </section>
      )
 }
 
