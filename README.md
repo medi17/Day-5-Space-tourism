@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://day-5-space-tourism.netlify.app/)
 
 ## My process
 
